@@ -1,0 +1,8 @@
+<div class="card bg-dark mb-2">
+    <!-- <img class="card-img-top" [src]="gif.images.downsized_medium.url" [alt]="gif.title" /> -->
+    <share-lazy-image [url]="gif.images.downsized_medium.url" [alt]="gif.title || 'No name'"></share-lazy-image>
+
+    <div class="card-body text-white">
+        <p class="card-text">{{ gif.title }}</p>
+    </div>
+</div>
